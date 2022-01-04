@@ -1,11 +1,7 @@
 # Python Fundamentals
 
 ---
----
 
-[Modules](https://www.notion.so/Modules-51a4dd88ed9b46f6a1554475307e8be7)
-
-[Setup](https://www.notion.so/Setup-9a4a93480ba24c2ebbd6be9e7bcd0411)
 
 **Python standard library manual, or run a `help(name)` or `dir(name)`**
 
@@ -15,7 +11,7 @@ help(list)
 
 ---
 
->  **Data** **types**: 
+- **Data** **types**:
     - Text Type: `str`
     - Numeric Types: `int, float, complex`
     - Sequence Types: `list, tuple, range`
@@ -23,8 +19,8 @@ help(list)
     - Set Types: `set, frozenset`
     - Boolean Type: `bool`
     - Binary Types: `bytes, bytearray, memoryview`
->  Python an object’s memory space is automatically re- claimed as soon as the object is no longer referenced anywhere in the program.
->  **Strings**: Like many other popular programming languages, strings in Python are arrays of bytes representing unicode characters. However, Python does not have a character data type, a single character is simply a string with a length of 1. Square brackets can be used to access elements of the string. They are - *“immutable sequence”*
+- Python an object’s memory space is automatically re- claimed as soon as the object is no longer referenced anywhere in the program.
+- **Strings**: Like many other popular programming languages, strings in Python are arrays of bytes representing unicode characters. However, Python does not have a character data type, a single character is simply a string with a length of 1. Square brackets can be used to access elements of the string. They are - *“immutable sequence”*
     1. Difference between single and double quotes in python strings ?
         
         They are same. The reason for supporting both is that it allows you to embed a quote character of the
@@ -62,22 +58,18 @@ help(list)
                 - *`conversionflag`* can be r, s, or a to call `repr`, `str`, or `ascii` built-in functions on the
                 value, respectively.
                 - *`formatspec`* specifies how the value should be presented, including details such as field width, alignment, padding, decimal precision, and so on, and ends with an optional data type code. `[[*fill*]*align*][*sign*][#][0][*width*][.*precision*][*typecode*]`. *See 📚*
-4. Files - After calling open, you can transfer strings of data to and from the associated external file by calling the returned file object’s methods. Optional third argument can be used to control output buffering—passing a zero means that output is unbuffered.
-5. Referencing - Python mutable objects make references
+- Files - After calling open, you can transfer strings of data to and from the associated external file by calling the returned file object’s methods. Optional third argument can be used to control output buffering—passing a zero means that output is unbuffered.
+- Referencing - Python mutable objects make references
     1. `copy` -  we can explicitly  copy an object
         1. Slice expressions with empty limits (L[:]) copy sequences. (*Don’t copy the deep nested parts*)
         2. The dictionary and set copy method (X.copy()) copies a dictionary or set. (*Don’t copy the deep nested parts*)
         3. Some built-in functions, such as list, make copies (list(L)). (*Don’t copy the deep nested parts*)
         4. The copy standard library module makes full copies.
-6. `is` - operator tests for identity. In case of string sit may act unusual as strings internally caches 
-7. Non empty objects and non zero numbers are true 
-8. `None` - build-in real object with memory 
-9. Cyclic object - If a collection has reference to itself. python prints `[...]`
-10. Encodings - rules for translation strings to sequence of bytes to storre in memory
+- `is` - operator tests for identity. In case of string sit may act unusual as strings internally caches
+- Non empty objects and non zero numbers are true
+- `None` - build-in real object with memory
+- Cyclic object - If a collection has reference to itself. python prints `[...]`
+- Encodings - rules for translation strings to sequence of bytes to storre in memory
     1. ASCII - 0-127 , trivial translation process
     2. Latin 1  - 0-255 ,  trivial translation process
     3. Unicode - 2 byte , complex processs
-
-### References:
-
-- 📒 Learning Python by Mark Lutz, O’RILLY
