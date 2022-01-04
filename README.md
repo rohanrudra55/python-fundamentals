@@ -15,7 +15,7 @@ help(list)
 
 ---
 
-1. **Data** **types**: 
+>  **Data** **types**: 
     - Text Type: `str`
     - Numeric Types: `int, float, complex`
     - Sequence Types: `list, tuple, range`
@@ -23,8 +23,8 @@ help(list)
     - Set Types: `set, frozenset`
     - Boolean Type: `bool`
     - Binary Types: `bytes, bytearray, memoryview`
-2. Python an object’s memory space is automatically re- claimed as soon as the object is no longer referenced anywhere in the program.
-3. **Strings**: Like many other popular programming languages, strings in Python are arrays of bytes representing unicode characters. However, Python does not have a character data type, a single character is simply a string with a length of 1. Square brackets can be used to access elements of the string. They are - *“immutable sequence”*
+>  Python an object’s memory space is automatically re- claimed as soon as the object is no longer referenced anywhere in the program.
+>  **Strings**: Like many other popular programming languages, strings in Python are arrays of bytes representing unicode characters. However, Python does not have a character data type, a single character is simply a string with a length of 1. Square brackets can be used to access elements of the string. They are - *“immutable sequence”*
     1. Difference between single and double quotes in python strings ?
         
         They are same. The reason for supporting both is that it allows you to embed a quote character of the
